@@ -43,7 +43,7 @@ class App extends Component {
             }}
           />
         </Switch>
-        <LocationDisplay />
+        <LocationDisplayComponent />
       </div>
     );
   }
