@@ -19,7 +19,7 @@ function Home() {
 function About() {
   return <div>You are on the about page</div>;
 }
-function LocationDisplay() {
+function LocationDisplayComponent() {
   const location = useLocation();
 
   return <div data-testid="location-display">{location.pathname}</div>;
@@ -50,3 +50,4 @@ class App extends Component {
 }
 
 export default App;
+export const LocationDisplay = LocationDisplayComponent;
