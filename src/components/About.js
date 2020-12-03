@@ -4,6 +4,6 @@ import "../styles/App.css";
 
 export default class About extends Component {
   render() {
-    return <>You are on the about page</>;
+    return <div>You are on the about page</div>;
   }
 }
