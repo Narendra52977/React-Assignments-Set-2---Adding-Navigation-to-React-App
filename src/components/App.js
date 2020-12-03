@@ -26,7 +26,7 @@ class App extends Component {
               <Error />
             </Route>
           </Switch>
-          <LocationDisplay />
+          <LocationDisplay data-testid="location-display" />
         </Router>
       </div>
     );
